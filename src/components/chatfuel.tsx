@@ -6,7 +6,7 @@ import { Button } from "./ui/button"
 export default function ChatfuelAlternativeBanner() {
   return (
     <div
-      className="relative w-full max-w-[1720px] h-[588px] mx-auto my-8 p-6 md:p-10 bg-white border-4 border-blue-400 rounded-lg flex flex-col md:flex-row items-center justify-between gap-8 md:gap-[124px] overflow-hidden"
+      className="relative w-full max-w-[1720px] h-[588px] mx-auto my-8 p-6 md:p-10 rounded-lg flex flex-col md:flex-row items-center justify-between gap-8 md:gap-[124px] overflow-hidden bg-white"
     
     >
       {/* Left side with trophy and people */}
@@ -25,19 +25,19 @@ export default function ChatfuelAlternativeBanner() {
 
       {/* Right side with text content */}
       <div className="w-full md:w-1/2 flex flex-col items-start gap-6 text-left">
-        <h2 className="text-3xl md:text-4xl font-bold text-blue-800 leading-tight">
+        <h2 className="text-3xl md:text-4xl font-bold text-[#375281] leading-tight">
           A Powerful Chatfuel
           <br />
           Alternative
         </h2>
 
-        <p className="text-blue-800 text-lg">
+        <p className="text-[#375281] text-lg">
           175+ help desk features, including ticketing, automation,
           <br />
           live chat, social networks, call center, and a customer portal
         </p>
 
-        <p className="text-blue-800 text-lg">
+        <p className="text-[#375281] text-lg">
           Get everything in one solution for just $39/month, eliminating
           <br />
           the needs for multiple tools.

@@ -6,7 +6,7 @@ import { Button } from "./ui/button"
 export default function BoostBanner() {
   return (
     <div
-      className="relative w-full max-w-[1720px] h-[588px] mx-auto my-8 p-6 md:p-10 bg-[#D3BAE4] rounded-lg flex flex-col md:flex-row items-center justify-between gap-8 md:gap-[124px] overflow-hidden"
+      className="relative w-full max-w-[1720px] h-[588px] mx-auto my-8 mt-16 p-6 md:p-10 bg-[#D3BAE4] rounded-lg flex flex-col md:flex-row items-center justify-between gap-8 md:gap-[124px] overflow-hidden"
     
     >
       {/* Left side with trophy and people */}

@@ -4,7 +4,7 @@ import { MessageSquare, Zap, BarChart3, AlertTriangle, Code, Layers } from "luci
 
 export default function DidYouKnow() {
   return (
-    <div className="flex justify-between items-center max-w-[1436px] h-[695px] mx-auto p-12 border border-blue-500 rounded-lg">
+    <div className="flex justify-between items-center max-w-[1436px] h-[695px] mx-auto p-12 rounded-lg">
       {/* Left side - Text content */}
       <div className="max-w-md">
         <h2 className="text-3xl font-bold text-blue-700 mb-6">Did You Know?</h2>
